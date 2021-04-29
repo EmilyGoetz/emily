@@ -2,7 +2,7 @@
  * a haiku:
  *
  * wtf is this
- * idk what im doing
+ * idk what i'm doing
  * i'm a mobile dev
  */
 
@@ -11,18 +11,15 @@ body {
 }
 
 #content {
-	background: white;
+	/*background: white;*/
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
+    display: inline-block;
     margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 350px;
-    height: 250px;
-    border: 1px dotted black;
-    padding: 30px;
+    left: 25%;
+    top: 25%;
+    border-left: 1px dotted #afc0db;
+    padding-left: 30px;
 }
 
 p {
@@ -55,13 +52,13 @@ p:nth-child(4) {
 
 p:nth-child(5) {
 	animation: type 3s steps(50, end);
-	animation-delay: 8s;
+	animation-delay: 9s;
 	animation-fill-mode: both;
 }
 
 p:nth-child(6) {
 	animation: type 3s steps(50, end);
-	animation-delay: 11s;
+	animation-delay: 13s;
 	animation-fill-mode: both;
 }
 
